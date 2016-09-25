@@ -23,7 +23,7 @@ class WildflyTool(object):
         self.workFolder = "/opt/wildfly/autodeployer"
         self.wildflyRoot = "/opt/wildfly/wildfly-10.0.0.Final"
         self.uploadFolder = self.workFolder + "/upload"
-        self.earFile = "mutitenant-poc-ear.ear"
+        self.earFile = "earfilename.ear"
 
     def checkFiles(self):
         if (not os.path.isdir(self.wildflyRoot)):
